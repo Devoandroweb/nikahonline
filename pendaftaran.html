@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Pendaftaran Nikah Online</title>
+  </head>
+  <body>
+  	<div class="container-fluid">
+  		<nav class="navbar navbar-expand-lg navbar-light bg-white">
+		    <div class="container-fluid">
+		      <a class="navbar-brand logo-header" href="index.html">
+		        <img src="img/logo-header.png" style="width: -moz-available;">
+		      </a>
+
+		      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		        <span class="navbar-toggler-icon"></span>
+		      </button>
+		      <div class="collapse navbar-collapse text-right" id="navbarNav">
+		          <div class="wedd-sub-nav Q-b">
+		            <a href="#" class="wedd-nav-link">
+		              Info Persyaratan
+		            </a>
+		            <a href="#" class="wedd-nav-link">
+		              Bantuan
+		            </a>
+		          </div>
+		      </div>
+		    </div>
+		  </nav>
+      <div class="header-home" style="background-image: url('img/wedding-2.png');background-size: 40%; background-position: right;">
+        <div class="header-home-goals">
+          <div class="form-login">
+            <div class="header-form-login">
+              <a class="header-form-login-back" href="#">
+                <img class="img" src="./img/arrow-left.png">
+                Kembali
+              </a>
+            </div>
+            <h5 class="Q-l text-blue">Mohon isi data di bawah ini dengan benar</h5>
+            <p class="Q-l text-black-light" style="line-height: 120%;margin-top: 1rem; font-size: 10pt">Program Pendaftaran Nikah Online ini telah di setujui oleh pihak - pihak penyelenggara untuk menjaga Sosial Distansing</p>
+            <form>
+              <div class="mt-4 p-3 card-login">
+                <div class="wedd-input-group Q-l mt-1">
+                  <label class="mb-1 text-black">Alamat Email</label>
+                  <input type="email" class="wedd-input" name="username" placeholder="alamat@email.com">
+                </div>
+              </div>
+              <div class="mt-4 p-3 card-login">
+                <div class="wedd-input-group Q-l  mt-1">
+                  <label class="mb-1 text-black">Password</label>
+                  <input type="password" class="wedd-input" name="Password" placeholder="password">
+                </div>
+                <div class="wedd-input-group Q-l  mt-1">
+                  <label class="mb-1 text-black">Konfirm Password</label>
+                  <input type="password" class="wedd-input" name="konfirm_password" placeholder="Konfirm password">
+                </div>
+              </div>
+              <div class="form-check mt-4 Q-l text-muted">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Saya Menyetujui dengan persyaratan dan Ketentuan berlaku
+                </label>
+              </div>
+              <button type="button" class="btn-login daftar mt-4 Q-l" value="">Daftar</button>
+              <div class="mt-2">
+                <label class="text-black-light">
+                  Sudah punya Akun? <a href="index.html" style="text-decoration: none;"><b class="text-blue">Login</b></a>
+                </label>
+              </div>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+  		
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function () {
+    		$('.daftar').click(function () {
+    			 window.location = "page-otp-password.html";
+    		})
+    	})
+    </script>
+  </body>
+</html>

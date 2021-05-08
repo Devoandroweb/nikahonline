@@ -1,0 +1,14 @@
+ALUR PENDAFTARAN NIKAH ONLINE
+1. Daftar Akun
+	a. Masukkan Email
+	b. Masukkan Password
+	c. Konfirm Password
+	d. Tekan Daftar
+	e. masukkan kode OTP yang ada di email
+	f. jika berhasil akan di arahkan ke halaman dashboard
+	g. pilih menu lengkapi data diri
+	h. pilih lengkapi data dokumen pernikahan
+2. Jika sudah punya akun
+	a. login
+	b. pilih menu lengkapi data diri
+	c. pilih lengkapi data dokumen pernikahan

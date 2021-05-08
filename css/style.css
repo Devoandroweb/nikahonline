@@ -1,0 +1,330 @@
+
+/*Blue = 034EA2*/
+/*Font Family*/
+ @font-face {
+   font-family: "Q-b";
+   src: url('../font/static/Quicksand-Bold.ttf');
+ }
+@font-face {
+   font-family: "Q-l";
+   src: url('../font/static/Quicksand-Light.ttf');
+ }
+.Q-b{
+  font-family: Q-b !important;
+}
+.Q-l{
+  font-family: Q-l !important;
+}
+.Q-m{
+
+}
+.Q-r{
+
+}
+.Q-sb{
+
+}
+
+/*End Font*/
+/*colors*/
+.text-blue{
+  color: #034EA2
+}
+.text-black{
+  color: #000000 !important;
+}
+.text-black-light{
+  color: #3F3D56;
+}
+/*end colors*/
+/*bacground*/
+.background-blue{
+  background: #034EA2 !important;
+}
+/*end background*/
+/*compotnent*/
+.wedd-card{
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.card-login{
+  background: #FFFFFF;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.wedd-card-form{
+  background-color: white;
+  padding: 3rem 2rem 3rem 2rem;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+/*end componenet*/
+.wedd-sub-nav{
+    width: 100%;
+    text-align: right;
+
+  }
+.wedd-nav-link{
+    text-decoration: none;
+    margin-right: 3rem;
+    color: #034EA2 !important;
+
+}
+.btn-masuk{
+  background: #034EA2;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 2rem;
+}
+.btn-masuk:hover{
+  color: white;
+}
+.header-home{
+  padding: 2rem;  
+  background-clip: revert;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.header-home-goals{
+  color: #034EA2;
+  width: 40%;
+  position: absolute;
+}
+.header-home-goals h1{
+  font-family: Segoe UI;
+  font-weight: bold;
+  font-size: 48pt;
+}
+.header-home-goals p{
+  margin-top: 3rem;
+  letter-spacing: 1px;
+  line-height: 180%;
+}
+.header-home-goals i{
+  width: 80%;
+  display: block;
+  letter-spacing: normal;
+}
+.btn-group-goals{
+  margin-top: 5rem;
+}
+.btn-daftar{
+  color: white;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: #034EA2;
+  text-decoration: none;
+  border-radius: 7px;
+}
+.btn-daftar:hover{
+  color: white;
+  background-color: #3983D7;
+  transition: background-color 0.5s;
+
+}
+.btn-cara-daftar{
+  color: #034EA2;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: white;
+  text-decoration: none;
+  border: 1px solid #034EA2;
+  border-radius: 7px;
+}
+.btn-cara-daftar:hover{
+  color: white;
+  background-color: #3983D7;
+  border: 1px solid #3983D7;
+  transition: background-color 0.5s;
+
+}
+.btn-group-goals a{
+  margin-right: 1rem;
+}
+.btn-input-red{
+  background: #FC5C5C;
+  border-radius: 6px;
+  border: none;
+}
+.btn-input-red:hover{
+  background: #FF9292;
+  transition: background 0.5s;
+}
+
+/*style form*/
+.wedd-input-group{
+  width: 100%;
+}
+.wedd-input-group label{
+  display: block;
+  position: absolute;
+  padding-left: 0.7rem;
+  z-index: 9999;
+}
+.wedd-input{
+  border:none;
+  outline: none;
+  padding-top: 1.5rem;
+  padding-left: 0.5rem;
+  border-left: 0.2rem solid white;
+  color: #3983D7;
+  background: white;
+  width: 100%;
+}
+.wedd-input:focus{
+  border-left: 0.2rem solid #3983D7;
+  transition: border-left 0.5s;
+
+}
+input:-webkit-autofill {
+    background: white;
+}
+/*style login*/
+.header-form-login{
+  margin-bottom: 3rem;
+}
+.header-form-login a{
+  text-decoration: none;
+  color: #3983D7;
+  font-family: Q-l;
+}
+.header-form-login a:hover{
+  text-decoration: none;
+  color: #000;
+  font-family: Q-l;
+}
+.form-login{
+  background-color: white;
+  padding: 3rem 2rem 3rem 2rem;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  position: absolute;
+}
+.btn-login{
+  border:none;
+  background-color: #034EA2;
+  border-radius: 7px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: white;
+}
+/*card*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+@media (max-width: 575.98px) {
+  .logo-header{
+    width: 50% !important;
+  }
+  .header-home{
+    padding: 0rem; 
+  }
+  .wedd-sub-nav{
+    text-align: left;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    font-family: Q-l !important;
+  }
+  .wedd-sub-nav a{
+      display: block;
+      margin-right: 0rem;
+  }
+  .btn-masuk{
+    background: #fff;
+    color: #034EA2;
+    text-decoration: none;
+    padding: 0rem;
+    border-radius: 2rem;
+  }
+  .wedd-sub-nav a:hover{
+      color: #000000 !important;
+  }
+  .header-home-goals{
+    width: 60%;
+  }
+  .btn-masuk{
+    background: #fff;
+    color: #034EA2;
+    text-decoration: none;
+    padding: 0rem;
+    border-radius: 2rem;
+  }
+  .wedd-sub-nav a:hover{
+      color: #000000 !important;
+  }
+  .btn-group-goals{
+    display: inline-grid;
+  }
+  .btn-group-goals a{
+    margin-top: 0.5rem;
+  }
+
+  .form-login{
+    width: 90%;
+  }
+
+}
+
+
+@media (max-width: 767.98px) {
+  .logo-header{
+    width: 50% !important;
+  }
+  .wedd-sub-nav{
+    text-align: left;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    font-family: Q-l !important;
+  }
+  .wedd-sub-nav a{
+      display: block;
+      margin-right: 0rem;
+  }
+
+}
+
+@media (max-width: 991.98px) {
+  .logo-header{
+    width: 50% !important;
+  }
+  .wedd-sub-nav{
+    text-align: left;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    font-family: Q-l !important;
+  }
+  .wedd-sub-nav a{
+      display: block;
+      margin-right: 0rem;
+  }
+  .btn-masuk{
+    background: #fff;
+    color: #034EA2;
+    text-decoration: none;
+    padding: 0rem;
+    border-radius: 2rem;
+  }
+  .wedd-sub-nav a:hover{
+      color: #000000 !important;
+  }
+}
+
+@media (max-width: 1199.98px) { ... }
+
+@media (max-width: 1399.98px) { ... }
