@@ -87,6 +87,7 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
+  background-image: url('../img/bg-header.png');
 }
 
 .header-home-goals{
@@ -184,6 +185,7 @@ input:-webkit-autofill {
 /*style login*/
 .header-form-login{
   margin-bottom: 3rem;
+  text-align: left;
 }
 .header-form-login a{
   text-decoration: none;
@@ -210,6 +212,9 @@ input:-webkit-autofill {
   padding: 0.5rem 1rem 0.5rem 1rem;
   color: white;
 }
+.login-show{
+    margin-left: -100%; width: 30%;
+  }
 /*card*/
 
 
@@ -230,101 +235,18 @@ input:-webkit-autofill {
 
 
 
-/**/
-@media (max-width: 575.98px) {
-  .logo-header{
-    width: 50% !important;
-  }
-  .header-home{
-    padding: 0rem; 
-  }
-  .wedd-sub-nav{
-    text-align: left;
-    padding: 0.5rem 0rem 0.5rem 0rem;
-    font-family: Q-l !important;
-  }
-  .wedd-sub-nav a{
-      display: block;
-      margin-right: 0rem;
-  }
-  .btn-masuk{
-    background: #fff;
-    color: #034EA2;
-    text-decoration: none;
-    padding: 0rem;
-    border-radius: 2rem;
-  }
-  .wedd-sub-nav a:hover{
-      color: #000000 !important;
-  }
-  .header-home-goals{
-    width: 60%;
-  }
-  .btn-masuk{
-    background: #fff;
-    color: #034EA2;
-    text-decoration: none;
-    padding: 0rem;
-    border-radius: 2rem;
-  }
-  .wedd-sub-nav a:hover{
-      color: #000000 !important;
-  }
-  .btn-group-goals{
-    display: inline-grid;
-  }
-  .btn-group-goals a{
-    margin-top: 0.5rem;
-  }
-
-  .form-login{
-    width: 90%;
-  }
-
-}
+/*mobile----------------------------------------------------------------------------------------------*/
 
 
-@media (max-width: 767.98px) {
-  .logo-header{
-    width: 50% !important;
-  }
-  .wedd-sub-nav{
-    text-align: left;
-    padding: 0.5rem 0rem 0.5rem 0rem;
-    font-family: Q-l !important;
-  }
-  .wedd-sub-nav a{
-      display: block;
-      margin-right: 0rem;
-  }
+/*ipad-------------------------------*/
 
-}
 
-@media (max-width: 991.98px) {
-  .logo-header{
-    width: 50% !important;
-  }
-  .wedd-sub-nav{
-    text-align: left;
-    padding: 0.5rem 0rem 0.5rem 0rem;
-    font-family: Q-l !important;
-  }
-  .wedd-sub-nav a{
-      display: block;
-      margin-right: 0rem;
-  }
-  .btn-masuk{
-    background: #fff;
-    color: #034EA2;
-    text-decoration: none;
-    padding: 0rem;
-    border-radius: 2rem;
-  }
-  .wedd-sub-nav a:hover{
-      color: #000000 !important;
-  }
-}
+/*ipad-------------------------------*/
 
-@media (max-width: 1199.98px) { ... }
 
-@media (max-width: 1399.98px) { ... }
+/*Notebook-------------------*/
+
+
+
+/*Dekstop---------------------  */
+

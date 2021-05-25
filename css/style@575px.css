@@ -1,0 +1,81 @@
+@media (max-width: 575.98px) {
+  .logo-header{
+    width: 50% !important;
+  }
+  .header-home{
+    padding: 0rem; 
+  }
+  .wedd-sub-nav{
+    text-align: left;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    font-family: Q-l !important;
+  }
+  .wedd-sub-nav a{
+      display: block;
+      margin-right: 0rem;
+  }
+  .btn-masuk{
+    background: #fff;
+    color: #034EA2;
+    text-decoration: none;
+    padding: 0rem;
+    border-radius: 2rem;
+  }
+  .wedd-sub-nav a:hover{
+      color: #000000 !important;
+  }
+  .header-home{
+    background-image: none;
+  }
+  .header-home-goals{
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .header-home-goals-pendaftaran{
+    width: 90% !important;
+  }
+  .header-home-goals i{
+    width: 100%;
+  }
+  .header-home-goals h1{
+    font-size: 30pt;
+  }
+  .btn-masuk{
+    background: #fff;
+    color: #034EA2;
+    text-decoration: none;
+    padding: 0rem;
+    border-radius: 2rem;
+  }
+  .wedd-sub-nav a:hover{
+      color: #000000 !important;
+  }
+  .btn-group-goals{
+    display: block;
+  }
+
+  .btn-group-goals a{
+    margin-top: 0.5rem;
+  }
+
+  .form-login{
+    width: auto;
+    margin:0;
+    padding: 0;
+  }
+
+  .login-show{
+    margin-left: -100%; 
+    width: 100%;
+  }
+
+  .custom-card{
+    box-shadow: none;
+  }
+  .header-form-login{
+
+    text-align: left;
+  }
+}
