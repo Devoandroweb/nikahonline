@@ -87,7 +87,6 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
-  background-image: url('../img/bg-header.png');
 }
 
 .header-home-goals{
@@ -213,10 +212,17 @@ input:-webkit-autofill {
   color: white;
 }
 .login-show{
-    margin-left: -100%; width: 30%;
+    margin-left: -100%; width: 40%;
   }
 /*card*/
+.bg-body{
+   background: #E3E8F4 !important;
+}
+.body-child{
+  margin-top: 1rem;
+  background-image: url('../img/bg-header.png');
 
+}
 
 
 

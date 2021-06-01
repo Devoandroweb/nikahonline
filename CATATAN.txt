@@ -1,0 +1,24 @@
+Form Register
+NIK
+Email
+No Tlp
+pass
+
+Form Login
+NiK
+Password
+
+
+Form Pengajuan
+
+Nik
+Nama
+Domisili Pernikahan
+ setelah lengkap lngsung generate surat pengantar.
+
+Dokumen yg di upload
+Surat pengantar RT/RW
+FC KTP calon mempelai
+FC KTP org tua calon yg mengajukan
+FC KK yg mengajukan
+Form keterangan belum menikah
