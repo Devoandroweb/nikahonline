@@ -1,4 +1,4 @@
-<!doctype html>
+  <!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -18,9 +18,14 @@
     <title>Pendaftaran Nikah Online</title>
   </head>
   <body>
+    
     <div class="body-child">
+      <div class="header-bg-img">
+          <img class="img-fluid" src="img/bg-home.png">
+      </div>
       <div class="container clear-mp">
-       <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+
+       <nav class="navbar pt-4 navbar-expand-lg navbar-light bg-transparent">
         <div class="container-fluid">
           <a class="navbar-brand logo-header" href="#">
             <img src="img/logo-header.png" style="width: 100%;">
@@ -46,9 +51,13 @@
       </nav>
 
      
-      <div class="header-home" style="">
+      <div class="header-home mt-4" style="">
+        
         <div class="header-home-goals" style="margin-top: 3rem;">
-          <h1>Selamat Datang</h1>
+          <!-- <h1>Selamat Datang</h1> -->
+          <div class="text-run">
+            <h1 class="text-ketik"><span class="text-target"></span><span class="cursor-kedip">_</span></h1>
+          </div>
           <p><b>Hai</b>, Sekarang pendaftaran nikah dapat melalui Online loh, yuk daftar di dengan klik tombol di bawah ini.</p>
           <div class="btn-group-goals">
               <a href="pendaftaran.html" class="btn-daftar Q-l">
@@ -68,7 +77,7 @@
             </a>
           </div>
           <h3 class="Q-b mb-4 text-blue">The <span style="color: black;">Wedding</span></h3>
-          <h5 class="Q-l text-blue">Masuk untuk  melanjutkan Pendaftaran</h5>
+          <h5 class="Q-b text-blue">Masuk untuk  melanjutkan Pendaftaran</h5>
           <p class="Q-l">Program Pendaftaran Nikah Online ini telah di setujui oleh pihak - pihak penyelenggara untuk menjaga Sosial Distansing</p>
           <form>
             <div class="mt-4 p-3 card-login">
@@ -111,7 +120,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script type="text/javascript">
       $(document).ready(function () {
-        // body...
+       var i = 0;
+        var run = false;
+        var iRun = 100;
+        var it = 0;
+        var IExecuteText = 0;
         $(".btn-masuk").click(function () {
           // body...
           $(".header-home-goals").css("opacity","0")
@@ -128,7 +141,63 @@
           $(".form-login").css("transition","margin-left 0.5s")
           $(".btn-masuk").css("display","")
 
-        })
+        });
+        var teks = ["Selamat Datang","Sekarang Daftar Nikah menjadi Lebih Masukudah"];
+        runText(teks,200,50);
+
+        function runText(text,timing,jedaTextRemove) {
+          var timeIsRun = 0;
+          
+          setInterval(function (argument) {
+            
+            var textExecute = teks[IExecuteText];
+            if (!run) {
+              var a = Array.from(textExecute);
+              $(".text-target").append(a[i]);
+              if (i > a.length) {
+                run = true;
+              }
+              if (IExecuteText == 1) {
+                $(".text-target").css("font","")
+              }
+              i = i + 1;
+
+            }else{
+              
+          
+              // setTimeout(function(){ it = it + 1; console.log(it)}, 100);
+
+              // if (it >= jedaTextRemove) {
+                // var str= $(".text-target").text();
+                // if (str.length != 0) {
+                //   $(".text-target").text("");
+                //   var newStr = str.substring(0, str.length - 1);
+                //   $(".text-target").append(newStr);
+                // }
+                // if (i <= 1) {
+                //   run = false;
+                //   it = 0;
+                //   // if (IExecuteText == 1) {
+                //   //   IExecuteText = 0;
+                //   // }else{
+                //   //   IExecuteText = IExecuteText + 1;
+                //   // }
+
+                // }
+                // i = i - 1;
+              // }
+
+
+            }
+
+            
+
+          },timing);
+
+          setInterval(function () {
+            $(".cursor-kedip").toggleClass("invisible");
+          },200)
+        }
       })
     </script>
   </body>
