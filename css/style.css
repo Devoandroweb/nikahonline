@@ -159,6 +159,7 @@
 /*style form*/
 .wedd-input-group{
   width: 100%;
+  position: relative;
 }
 .wedd-input-group label{
   display: block;
@@ -327,7 +328,45 @@ input:-webkit-autofill {
   font-size: small !important;
 }
 
+.cheking{
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.alert-input{
+  color: #dc3545;
+  margin: 0;
+  font-size: 8pt;
+  margin-left: 0.7rem;
+  padding: 0 !important;
 
+}
+.btn-blue{
+  
+  background: #176CCC;
+  color: white;
+}
+.btn-blue:hover{
+  background: #034EA2;
+  color: white;
+} 
+.finish{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+.finish .content{
+  margin:auto;
+}
+.bg-pink{
+  background: #F33535;
+}
+.bg-purple{
+  background: #4F35F3;
+}
 /*mobile----------------------------------------------------------------------------------------------*/
 
 

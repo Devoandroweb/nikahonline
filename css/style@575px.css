@@ -82,4 +82,7 @@
     margin: 0 !important;
     padding: 0 !important;
   }
+  .line-step::before{
+    height:0 !important;
+  }
 }

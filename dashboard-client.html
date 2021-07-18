@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="font/font-awesome/all.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/style@575px.css">
     <link rel="stylesheet" type="text/css" href="css/style@767px.css">
@@ -28,19 +29,23 @@
           <div class="text-right">
               <div class="wedd-sub-nav Q-b">
                 <a href="#" class="wedd-nav-link">
+                    Selamat Datang, Handoko Priyanto
                 </a>
-                <a href="#" class="wedd-nav-link">
-                  <img src="img/char.png" class="rounded-circle" style="width: 2rem; height: 2rem">
+                <a href="#" class="wedd-nav-link me-1">
+                  <img src="img/char.png" class="rounded-circle" style="width: 3rem; height: 3rem">
                 </a>
               </div>
           </div>
         </div>
-      </nav>
 
+      </nav>
+    <hr>
+    <p class="text-white">Lengkapi Data di bawah ini untuk membuat Surat Pengantar Nikah</p>
      <div class="row ">
-       <div class="col-12 col-sm-2 ">
-               <div class="card p-0 " style="height: 75vh;">
-                <div class="card-header m-0 p-2 Q-b h-100 bg-white">
+       <div class="col-12 col-sm-2">
+
+               <div class="card p-0 rounded-0  h-100">
+                <div class="card-header m-0 p-2 Q-b bg-white h-100">
                     <div class="header-form">
                         <div class="row m-0 p-0 text-center line-step">
                             <div class="col header-form-label d-flex align-items-center" style="height: 25vh">
@@ -66,63 +71,83 @@
          </div>
        </div>
        <div class="col-12 col-sm">
-         <div class="card p-0 " style="height: 75vh;">
-           <div class="card-body">
-              <div class="row">
-                <div class="col-sm-4">
-                  <form>
-                    <div class="p-3 card-login clear-shadow">
-                      <div class="wedd-input-group Q-l mb-4">
+        
+              <div class="row  overflow-hidden">
+                <div class="col-sm-6 h-100">
+                  <form class=" h-100">
+                    <div class="p-3 card-login clear-shadow h-100 rounded-0">
+                      <div class="wedd-input-group Q-l mb-3 p-2">
                         <label class="mb-1 Q-b">NIK</label>
                         <input type="email" class="wedd-input" name="username" placeholder="alamat@email.com">
+                        <div class="cheking">
+                          <div class="icon text-success"><small>Approved</small> <i class="fas fa-check"></i></div>
+                        </div>
                       </div>
-                      <div class="wedd-input-group Q-l  mb-4">
-                        <label class="mb-1 Q-b">Nama Lengkap</label>
+                      <div class="wedd-input-group Q-l  mb-3 p-2">
+                        <label class="mb-1 Q-b">Nama Lengkap<span class="alert-input">- <small>Mohon isi Nama Anda</small></span></label>
                         <input type="text" class="wedd-input" name="Password" placeholder="Nama Lengkap Anda">
+
+                        <div class="cheking">
+                          <div class="icon text-danger"><small>Not Approved</small> <i class="fas fa-times"></i></div>
+                        </div>
                       </div>
-                      <div class="wedd-input-group Q-l  mb-4">
-                        <label class="mb-1 Q-b">Tempat Lahir</label>
+                      <div class="wedd-input-group Q-l  mb-3 p-2">
+                        <label class="mb-1 Q-b">Tempat Lahir<span class="alert-input">- <small>Mohon isi Nama Anda</small></span></label>
                         <input type="text" class="wedd-input" name="Password" placeholder="Tempat Lahir Anda">
+                        <div class="cheking">
+                          <div class="icon text-danger"><small>Not Approved</small> <i class="fas fa-times"></i></div>
+                        </div>
                       </div>
-                      <div class="wedd-input-group Q-l  mb-4">
+                      <div class="wedd-input-group Q-l  mb-3 p-2">
                         <label class="mb-1 Q-b">Tanggal Lahir</label>
                         <input type="date" class="wedd-input" name="Password" placeholder="Tanggal Lahir">
                       </div>
-                      <div class="wedd-input-group Q-l  mb-4">
+                      <div class="wedd-input-group Q-l  mb-3 p-2">
                         <label class="mb-1 Q-b">No. Telp</label>
                         <input type="text" class="wedd-input" name="Password" placeholder="No. Telepon Anda yang Aktif">
                       </div>
-                      <div class="wedd-input-group Q-l  mb-4">
+                      <div class="wedd-input-group Q-l  mb-3 p-2">
                         <label class="mb-1 Q-b">Jenis Kelamin</label>
-                        <input type="text" class="wedd-input" name="Password" placeholder="Jenis Kelamin">
+                        <!-- <input type="text" class="wedd-input" name="Password" placeholder="Jenis Kelamin"> -->
+                        <div class="wedd-input">
+                          <div class="form-check form-check-inline d-block">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Laki - laki</label>
+                          </div>
+                          <div class="form-check form-check-inline d-block">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Perempuan</label>
+                          </div>
+                        </div>
+                        
                       </div>
                     </div>
                   </form>
                 </div>
-                <div class="col-sm-4">
-                    <form>
-                      <div class="p-3 card-login clear-shadow">
-                        <div class="wedd-input-group Q-l  mb-4">
+                <div class="col-sm-6">
+                    <form class=" h-100">
+                      <div class="p-3 card-login clear-shadow h-100 rounded-0">
+                        <div class="wedd-input-group Q-l  mb-3 p-2">
                             <label class="mb-1 Q-b">Keluarahan</label>
                             <input type="text" class="wedd-input" name="Password" placeholder="Kelurahan">
                         </div>
-                        <div class="wedd-input-group Q-l  mb-4">
+                        <div class="wedd-input-group Q-l  mb-3 p-2">
                             <label class="mb-1 Q-b">Kecamatan</label>
                             <input type="text" class="wedd-input" name="Password" placeholder="Kecamtan">
                         </div>
-                        <div class="wedd-input-group Q-l  mb-4">
+                        <div class="wedd-input-group Q-l  mb-3 p-2">
                             <label class="mb-1 Q-b">Kabupaten</label>
                             <input type="text" class="wedd-input" name="Password" placeholder="Kabupaten">
                         </div>
-                        <div class="wedd-input-group Q-l  mb-4">
+                        <div class="wedd-input-group Q-l  mb-3 p-2">
                             <label class="mb-1 Q-b">RT</label>
                             <input type="text" class="wedd-input" name="Password" placeholder="RT">
                         </div>
-                        <div class="wedd-input-group Q-l  mb-4">
+                        <div class="wedd-input-group Q-l  mb-3 p-2">
                             <label class="mb-1 Q-b">RW</label>
                             <input type="text" class="wedd-input" name="Password" placeholder="RW">
                         </div>
-                        <div class="wedd-input-group Q-l  mb-4">
+                        <div class="wedd-input-group Q-l  mb-3 p-2">
                             <label class="mb-1 Q-b">Alamat Blok/No. Rumah</label>
                             <input type="text" class="wedd-input" name="Password" placeholder="Alamat">
                         </div>
@@ -130,18 +155,24 @@
                   </form>
                 </div>  
               </div>
-           </div>
-         </div>
+          
        </div>
 
      </div>
-      
+      <div class="row py-4">
+        <div class="col text-end">
+          <a href="#" class="btn btn-danger">Kembali</a>
+          <a href="#" class="btn btn-blue">Simpan dan Lanjutkan</a>
+        </div>
+      </div>
     </div>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="font/font-awesome/all.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   
   </body>
